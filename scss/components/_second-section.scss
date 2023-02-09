@@ -1,0 +1,130 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+.black-section {
+    background-color: $black;
+    padding: 100px 0px;
+
+    .container {
+        .flex {
+            @include flex-box;
+
+            .left {
+                width: 50%;
+                color: white;
+
+                h2 {
+                    font-weight: 100;
+                    letter-spacing: 10px;
+                    font-size: 24px;
+                }
+
+                .big-p {
+                    font-size: 4.5em;
+                    margin: 50px 0px;
+                    font-weight: bold;
+                }
+
+                .small-p {
+                    color: $gray;
+                    max-width: 500px;
+                }
+
+                button {
+                    width: 250px;
+                    height: 40px;
+                    border: none;
+                    background-color: $red;
+                    border-radius: 50px;
+                    margin-top: 30px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .right {
+                width: 50%;
+
+                img {
+                    width: 400px;
+                    float: right;
+                }
+            }
+        }
+
+        .bottom {
+            margin-top: 100px;
+
+            .flex {
+                @include flex-box;
+
+                .left {
+                    width: 50%;
+
+                    img {
+                        width: 410px;
+                        display: inline-block;
+                    }
+                }
+
+                .right {
+                    color: white;
+
+                    .big-p {
+                        font-size: 4.5em;
+                        font-weight: bold;
+                        max-width: 400px;
+                        margin-left: 150px;
+                        margin-bottom: 50px;
+
+                        span {
+                            color: $red;
+                        }
+                    }
+
+                    .small-p {
+                        color: $gray;
+                        max-width: 400px;
+                        margin-left: 150px;
+                    }
+
+                    .medium-p {
+                        font-weight: 100;
+                        letter-spacing: 10px;
+                        font-size: 24px;
+                        max-width: 400px;
+                        margin-left: 150px;
+                        margin-top: 50px;
+                    }
+
+                    #media {
+                        margin-left: 150px;
+                        margin-top: 30px;
+                        a {
+                            display: block;
+                            text-decoration: none;
+                            color: white;
+                            border-bottom: 1px solid white;
+                            margin-bottom: 5px;
+                            padding-bottom: 5px;
+                            letter-spacing: 1px;
+                            &:hover {
+                                color: $red;
+                                font-weight: 500;
+                            }
+                            svg {
+                                margin-right: 10px;
+                                width: 30px;
+                                color: $red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

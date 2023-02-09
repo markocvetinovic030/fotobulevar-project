@@ -1,0 +1,95 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+main {
+    section {
+        padding-top: 100px;
+        background: rgb(243, 243, 243);
+        background: radial-gradient(circle, rgba(243, 243, 243, 1) 0%, rgba(231, 231, 231, 1) 100%);
+        .container {
+            .img-cover {
+                width: 100%;
+                margin-top: 100px;
+                background-color: $red;
+                height: 400px;
+            }
+
+            .flex {
+                @include flex-box;
+                transform: translateY(-39%);
+
+                .left {
+                    width: 50%;
+
+                    h1 {
+                        font-size: 5em;
+                        letter-spacing: 5px;
+                        margin-left: 150px;
+                        font-weight: bold;
+
+                        span {
+                            color: white;
+                            display: block;
+                        }
+                    }
+
+                    button {
+                        width: 280px;
+                        background-color: $red;
+                        border: none;
+                        border-radius: 50px;
+                        height: 50px;
+                        margin-top: 80px;
+                        margin-left: 150px;
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+
+                .right {
+                    width: 50%;
+
+                    p {
+                        margin: 0 auto;
+
+                        margin-top: 300px;
+                        max-width: 400px;
+                        font-family: initial;
+                    }
+
+                    .line-one {
+                        margin-left: 70px;
+                        margin-top: 20px;
+                        width: 60%;
+                        height: 2px;
+                        background-color: $red;
+                    }
+
+                    .line-two {
+                        margin-left: 70px;
+                        margin-top: 20px;
+                        width: 32%;
+                        height: 1px;
+                        background-color: $red;
+                    }
+
+                    .line-three {
+                        margin-left: 70px;
+                        margin-top: 20px;
+                        width: 12%;
+                        height: 1.5px;
+                        background-color: $red;
+                    }
+
+                    .line-four {
+                        margin-left: 70px;
+                        margin-top: 20px;
+                        width: 8%;
+                        height: 1px;
+                        background-color: $red;
+                    }
+                }
+            }
+        }
+    }
+}
