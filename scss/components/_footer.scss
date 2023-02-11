@@ -1,0 +1,48 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+
+footer{
+    background-color: $black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: white;
+    .container{
+        .flex{
+            @include flex-box;
+            #logo{
+                p{
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+            }
+
+            .media{
+                a{
+                    margin-left: 20px;
+                    svg{
+                        color: white;
+                        width: 35px;
+                    }
+                }
+            }
+        }
+
+        .big-p {
+            font-size: 4.5em;
+            margin: 0 auto;
+            margin-top: 100px;
+            font-weight: bold;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .bottom{
+            text-align: center;
+            margin-top: 100px;
+            p{
+                letter-spacing: 5px;
+            }
+        }
+    }
+}

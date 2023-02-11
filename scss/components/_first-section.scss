@@ -2,10 +2,8 @@
 @import '../base/vars';
 
 main {
-    section {
+    #first {
         padding-top: 100px;
-        background: rgb(243, 243, 243);
-        background: radial-gradient(circle, rgba(243, 243, 243, 1) 0%, rgba(231, 231, 231, 1) 100%);
         .container {
             .img-cover {
                 width: 100%;
