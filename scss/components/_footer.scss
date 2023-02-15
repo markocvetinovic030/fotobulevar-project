@@ -46,3 +46,39 @@ footer{
         }
     }
 }
+
+
+@media only screen and (max-width: 390px){
+    footer{
+        .container{
+            .flex{
+                padding: 0px 20px;
+            }
+
+            .big-p{
+                font-size: 3em;
+                margin: 50px 0px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 414px){
+    footer{
+        .container{
+            .flex{
+                padding: 0px 20px;
+            }
+
+            .big-p{
+                font-size: 3em;
+                margin: 50px 0px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -11,12 +11,18 @@ header{
         .flex{
             @include flex-box;
             .left{
-                p{
-                    font-size: 1.8em;
-                    font-weight: bold;
+                #logo{
+                    img{
+                        width: 150px;
+                    }
+                }
+
+                #hamburger{
+                    display: none;
                 }
             }
             .right{
+                display: block;
                 nav{
                     padding-top: 9px;
                     ul{
@@ -28,7 +34,130 @@ header{
                                 text-decoration: none;
                                 color: black;
                                 font-weight: 600;
-                                font-size: 1.2em;
+                                font-size: 1.3em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 390px){
+    header{
+        width: 100%;
+        .container{
+            .flex{
+                padding: 10px 30px 15px 20px;
+                display: block;
+                .left{
+                    #logo{
+                        img{
+                            width: 100px
+                        }
+                    }
+                    @include flex-box;
+                    width: 100%;
+                    #hamburger{
+                        display: block;
+                        svg{
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+                }
+                .right{
+                    width: 100%;
+                    background-color: $gray-background;
+                    margin-top: 30px;
+                    width: 116%;
+                    transform: translateX(-6%);
+                    display: none;
+                    nav{
+                        padding: 20px 0px;
+                        ul{
+                            display: block;
+                            text-align: center;
+                            padding: 0px;
+                            li{
+                                width: 70%;
+                                margin: 0 auto;
+                                margin-top: 20px;
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid black;
+                                &:nth-child(1){
+                                    border-top: 1px solid black;
+                                    padding-top: 18px;
+                                    width: 60%;
+                                }
+                                a{
+                                    font-size: 1.5em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 414px){
+    header{
+        width: 100%;
+        .container{
+            .flex{
+                padding: 10px 30px 15px 20px;
+                display: block;
+                .left{
+                    #logo{
+                        img{
+                            width: 100px
+                        }
+                    }
+                    @include flex-box;
+                    width: 100%;
+                    #hamburger{
+                        display: block;
+                        svg{
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+                }
+                .right{
+                    width: 100%;
+                    background-color: $gray-background;
+                    margin-top: 30px;
+                    width: 116%;
+                    transform: translateX(-6%);
+                    display: none;
+                    nav{
+                        padding: 20px 0px;
+                        ul{
+                            display: block;
+                            text-align: center;
+                            padding: 0px;
+                            li{
+                                width: 70%;
+                                margin: 0 auto;
+                                margin-top: 20px;
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid black;
+                                &:nth-child(1){
+                                    border-top: 1px solid black;
+                                    padding-top: 18px;
+                                    width: 60%;
+                                }
+                                a{
+                                    font-size: 1.5em;
+                                }
                             }
                         }
                     }
