@@ -1,0 +1,53 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+
+main {
+    #first-about {
+        .fixed-img {
+            background-image: url('/img/543.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding-top: 300px;
+            padding-bottom: 200px;
+
+            .img-frame {
+                width: 100%;
+                background: rgb(27, 27, 27);
+                background: linear-gradient(52deg, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.7035189075630253) 0%);
+                padding: 100px 0px 70px 0px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+                h1 {
+                    font-size: 3em;
+                    letter-spacing: 5px;
+                    text-align: center;
+                    font-weight: bold;
+                    color: white;
+                    max-width: 80%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+                p{
+                    max-width: 70%;
+                    margin: 0 auto;
+                    text-align: center;
+                    color: white;
+                }
+                button{
+                    background: transparent;
+                    border: none;
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 30px;
+                    outline: none;
+                    svg{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

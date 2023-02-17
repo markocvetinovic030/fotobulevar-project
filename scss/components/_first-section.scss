@@ -4,7 +4,6 @@
 main {
     #first {
         padding-top: 60px;
-
         .container {
             .img-cover {
                 width: 100%;
@@ -13,34 +12,40 @@ main {
                 background: linear-gradient(52deg, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.7035189075630253) 0%);
                 padding: 100px 0px;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                margin-bottom: 140px;
+                margin-bottom: 200px;
 
                 h1 {
-                    font-size: 4.5em;
+                    font-size: 2.2em;
                     letter-spacing: 5px;
                     text-align: center;
                     font-weight: bold;
                     color: white;
-                    font-family: 'Fredoka One', cursive;
+                    max-width: 80%;
+                    margin: 0 auto;
 
                     span {
                         color: white;
+                        font-weight: bold;
+                        font-style: italic;
                         display: block;
+                        font-size: 1.4em;
+                        margin-top: 30px;
                     }
                 }
 
                 p {
-                    font-weight: 300;
+                    font-weight: 400;
                     letter-spacing: 10px;
                     font-size: 24px;
-                    color: white;
-                    margin-top: 50px;
+                    color: $red;
+                    margin-bottom: 50px;
                     text-align: center;
                 }
 
                 button {
                     width: 280px;
                     background-color: $red;
+                    font-size: 14px;
                     border: none;
                     border-radius: 50px;
                     height: 50px;
@@ -61,7 +66,7 @@ main {
                         color: white;
                         font-weight: bold;
                         display: block;
-                        padding-top: 6px;
+                        padding-top: 3px;
                         font-size: 1.1em;
                         text-decoration: none;
                     }
@@ -78,9 +83,12 @@ main {
             .container {
                 .img-cover{
                     h1 {
-                        font-size: 3em;
+                        font-size: 10px;
                         margin-left: 20px;
                         line-height: 70px;
+                        span{
+                            font-size: 15px;
+                        }
                     }
     
                     button {

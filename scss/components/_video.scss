@@ -5,13 +5,8 @@
 main {
     #first {
         video {
-            width: 100%;
-            height: 1000px;
             position: absolute;
-            left: 0;
-            right: 0;
-            top: -10;
-            bottom: 0;
+            top: -10px;
             z-index: -1;
         }
     }
@@ -30,6 +25,7 @@ main {
             }
         }
         .phone-background{
+            display: block;
             width: 100%;
             
         }

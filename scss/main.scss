@@ -7,16 +7,12 @@
 @import 'components/fourth-section';
 @import 'components/footer';
 @import 'components/video';
+@import 'about/first-about';
+@import 'about/second-about';
+@import 'contact/first-contact';
+@import 'contact/second-contact';
 
 
 body{
-    font-family: 'Anek Odia', sans-serif;
-
-    .big-p{
-        font-family: 'Fredoka One', cursive;
-    }
-
-    h4{
-        font-family: 'Fredoka One', cursive;
-    }
+    font-family: 'Montserrat', sans-serif;
 }
