@@ -1,0 +1,28 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+
+main {
+    #second-services {
+        background-color: $gray-background;
+        padding: 100px 0px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        h2 {
+            font-size: 2.5em;
+            letter-spacing: 5px;
+            text-align: center;
+            font-weight: bold;
+            color: #1B1B1B;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        p{
+            max-width: 60%;
+            font-size: 1.1em;
+            margin: 0 auto;
+            text-align: center;
+            color: #1B1B1B;
+        }
+    }
+}

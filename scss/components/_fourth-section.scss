@@ -102,16 +102,20 @@
                     #big-img {
                         width: 400px;
                         height: 700px;
-                        background-color: $red;
+                        background-image: url('/img/Vencanice12011.jpg');
+                        background-size: cover;
                         margin-left: 80px;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
                     }
 
                     .frame {
                         .small-img {
                             width: 250px;
                             height: 200px;
-                            background-color: black;
                             margin-bottom: 50px;
+                            background-image: url('/img/ANA10366.jpg');
+                            background-size: cover;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
                         }
                     }
                 }

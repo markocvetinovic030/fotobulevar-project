@@ -3,47 +3,46 @@
 
 main {
     #first {
-        padding-top: 60px;
+        padding-top: 150px;
+        padding-bottom: 90px;
         .container {
             .img-cover {
                 width: 100%;
                 margin-top: 100px;
-                background: rgb(27, 27, 27);
-                background: linear-gradient(52deg, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.7035189075630253) 0%);
+               // background: rgb(27, 27, 27);
+                //background: linear-gradient(52deg, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.7035189075630253) 0%);
                 padding: 100px 0px;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 margin-bottom: 200px;
-
                 h1 {
-                    font-size: 2.2em;
+                    font-size: 3em;
                     letter-spacing: 5px;
                     text-align: center;
-                    font-weight: bold;
-                    color: white;
-                    max-width: 80%;
+                    font-weight: 500;
+                    color: $black;
                     margin: 0 auto;
-
+                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
                     span {
-                        color: white;
-                        font-weight: bold;
-                        font-style: italic;
-                        display: block;
+                        color: $black;
+                        font-weight: 600;
                         font-size: 1.4em;
-                        margin-top: 30px;
+                        margin-top: 20px;
+                        display: block;
                     }
                 }
 
                 p {
-                    font-weight: 400;
+                    font-weight: 600;
                     letter-spacing: 10px;
                     font-size: 24px;
-                    color: $red;
+                    color: $black;
                     margin-bottom: 50px;
                     text-align: center;
+                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
                 }
 
                 button {
-                    width: 280px;
+                    width: 400px;
                     background-color: $red;
                     font-size: 14px;
                     border: none;
