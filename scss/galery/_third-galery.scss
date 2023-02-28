@@ -1,0 +1,63 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+.third-gal {
+    padding: 100px 0px;
+
+    .container {
+        .flex {
+            a {
+                color: $black;
+                text-decoration: none;
+                display: block;
+                width: 30%;
+                text-align: center;
+                #weddings {
+                    padding: 100px 20px;
+                    background-image: url('/img/vencanja/cover.jpg');
+                    background-size: cover;
+                    height: 300px;
+                    background-position: -50px 0px;
+                    .big-p {
+                        font-weight: bold;
+                        letter-spacing: 10px;
+                        font-size: 20px;
+                        text-align: center;
+                        margin-bottom: 50px;
+                        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
+                    }
+                }
+
+                #krstenje {
+                    padding: 100px 20px;
+                    background-image: url('/img/krstenja/cover.jpg');
+                    background-size: cover;
+                    height: 300px;
+                    .big-p {
+                        font-weight: bold;
+                        letter-spacing: 10px;
+                        font-size: 20px;
+                        text-align: center;
+                        margin-bottom: 50px;
+                        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
+                    }
+                }
+
+                #birthday{
+                    padding: 100px 20px;
+                    background-image: url('/img/18ti/cover.jpg');
+                    background-size: cover;
+                    height: 300px;
+                    .big-p {
+                        font-weight: bold;
+                        letter-spacing: 10px;
+                        font-size: 20px;
+                        text-align: center;
+                        margin-bottom: 50px;
+                        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+
+main {
+    .gallery-container {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 200px;
+
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h2{
+            max-width: 70%;
+            margin: 0 auto;
+            transform: translateY(-160%);
+            text-align: ce;
+        }
+        p{
+            font-weight: 400;
+            letter-spacing: 5px;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .flex{
+            @include flex-box;
+            .grid-item{
+                img{
+                    width: 550px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

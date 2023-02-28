@@ -1,0 +1,24 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+
+#first-gal{
+    padding-top: 150px;
+    background-color: $gray-background;
+
+    .top-img {
+        height: 200px;
+        width: 100%;
+        background-image: url('/img/BUL06124321.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0px -600px;
+        h1 {
+            padding-top: 60px;
+            font-size: 3.5em;
+            font-weight: bold;
+            text-align: left;
+            color: white;
+        }
+    }
+}
