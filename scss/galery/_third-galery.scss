@@ -5,57 +5,120 @@
     padding: 100px 0px;
 
     .container {
-        .flex {
-            a {
-                color: $black;
-                text-decoration: none;
+        a {
+            text-decoration: none;
+
+            #videos {
+                width: 100%;
                 display: block;
-                width: 30%;
+                margin: 0 auto;
+                margin-top: 50px;
                 text-align: center;
-                #weddings {
-                    padding: 100px 20px;
-                    background-image: url('/img/vencanja/cover.jpg');
-                    background-size: cover;
-                    height: 300px;
-                    background-position: -50px 0px;
-                    .big-p {
-                        font-weight: bold;
-                        letter-spacing: 10px;
-                        font-size: 20px;
-                        text-align: center;
-                        margin-bottom: 50px;
-                        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
-                    }
+                background-image: url('/img/galerija\ naslovne/videoteka.jpg');
+                background-size: cover;
+                background-position: -0 -100px;
+                height: 400px;
+                padding: 150px 0px;
+
+                .big-p {
+                    font-weight: bold;
+                    letter-spacing: 10px;
+                    font-size: 35px;
+                    text-align: center;
+                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+                    color: white;
                 }
 
-                #krstenje {
-                    padding: 100px 20px;
-                    background-image: url('/img/krstenja/cover.jpg');
-                    background-size: cover;
-                    height: 300px;
-                    .big-p {
-                        font-weight: bold;
-                        letter-spacing: 10px;
-                        font-size: 20px;
-                        text-align: center;
-                        margin-bottom: 50px;
-                        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
-                    }
+                &:hover {
+                    background-image: url('/img/galerija\ naslovne/videoteka gray.jpg');
+                    transform: scale(0.95);
+                    transition: 1s all;
+                }
+            }
+
+            #rodjendani {
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+                margin-top: 50px;
+                text-align: center;
+                background-image: url('/img/galerija\ naslovne/18.jpg');
+                background-size: cover;
+                background-position: -0 -100px;
+                height: 400px;
+                padding: 150px 0px;
+                
+                .big-p {
+                    font-weight: bold;
+                    letter-spacing: 10px;
+                    font-size: 35px;
+                    text-align: center;
+                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+                    color: white;
                 }
 
-                #birthday{
-                    padding: 100px 20px;
-                    background-image: url('/img/18ti/cover.jpg');
-                    background-size: cover;
-                    height: 300px;
-                    .big-p {
-                        font-weight: bold;
-                        letter-spacing: 10px;
-                        font-size: 20px;
-                        text-align: center;
-                        margin-bottom: 50px;
-                        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
-                    }
+                &:hover {
+                    background-image: url('/img/galerija\ naslovne/18 gray.jpg');
+                    transform: scale(0.95);
+                    transition: 1s all;
+                }
+            }
+
+            #krstenja {
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+                margin-top: 50px;
+                text-align: center;
+                background-image: url('/img/galerija\ naslovne/krstenje.jpg');
+                background-size: cover;
+                background-position: -0 -100px;
+                height: 400px;
+                padding: 150px 0px;
+
+                .big-p {
+                    font-weight: bold;
+                    letter-spacing: 10px;
+                    font-size: 35px;
+                    text-align: center;
+                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+                    color: white;
+                }
+
+                &:hover {
+                    background-image: url('/img/galerija\ naslovne/krstenje gray.jpg');
+                    transform: scale(0.95);
+                    transition: 1s all;
+                }
+            }
+
+            #vencanja {
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+                margin-top: 50px;
+                text-align: center;
+                background-image: url('/img/galerija\ naslovne/vencanje.jpg');
+                background-size: cover;
+                background-position: -0 -100px;
+                height: 400px;
+                padding: 150px 0px;
+                background-position: 0px -200px;
+
+                .big-p {
+                    font-weight: bold;
+                    letter-spacing: 10px;
+                    font-size: 35px;
+                    text-align: center;
+                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+                    color: white;
+                }
+
+                &:hover {
+                    background-image: url('/img/galerija\ naslovne/vencanje gray.jpg');
+                    transform: scale(0.95);
+                    background-position: 0px -200px;
+                    transition: 1s all;
                 }
             }
         }

@@ -4,74 +4,7 @@
 main {
     #first {
         padding-top: 150px;
-        padding-bottom: 90px;
-        .container {
-            .img-cover {
-                width: 100%;
-                margin-top: 100px;
-               // background: rgb(27, 27, 27);
-                //background: linear-gradient(52deg, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.7035189075630253) 0%);
-                padding: 100px 0px;
-                //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                margin-bottom: 200px;
-                h1 {
-                    font-size: 3em;
-                    letter-spacing: 5px;
-                    text-align: center;
-                    font-weight: 500;
-                    color: $black;
-                    margin: 0 auto;
-                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
-                    span {
-                        color: $black;
-                        font-weight: 600;
-                        font-size: 1.4em;
-                        margin-top: 20px;
-                        display: block;
-                    }
-                }
-
-                p {
-                    font-weight: 600;
-                    letter-spacing: 10px;
-                    font-size: 24px;
-                    color: $black;
-                    margin-bottom: 50px;
-                    text-align: center;
-                    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px ;
-                }
-
-                button {
-                    width: 400px;
-                    background-color: $red;
-                    font-size: 14px;
-                    border: none;
-                    border-radius: 50px;
-                    height: 50px;
-                    display: block;
-                    margin: 0 auto;
-                    margin-top: 50px;
-
-                    &:hover{
-                        background-color: white;
-                        transition: 1s all;
-                        a{
-                            color: $red;
-                            transition: 1s all;
-                        }
-                    }
-
-                    a {
-                        color: white;
-                        font-weight: bold;
-                        display: block;
-                        padding-top: 3px;
-                        font-size: 1.1em;
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
+        padding-bottom: 820px;
     }
 }
 

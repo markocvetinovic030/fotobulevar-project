@@ -1,0 +1,51 @@
+@import '../base/mixin';
+@import '../base/vars';
+
+.third-section {
+    padding: 50px 0px;
+
+    .container {
+        h5 {
+            font-size: 3.5em;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 100px;
+            margin-bottom: 100px;
+            span{
+                color: $red;
+            }
+        }
+        .question-box{
+            margin-bottom: 50px;
+            border-bottom: 1px solid $black;
+
+            &:hover{
+                .bottom-box{
+                    opacity: 10;
+                    height: 100%;
+                    transition: 1s all;
+                }
+
+                .big-p{
+                    font-weight: bold;
+                    transition: 0.2s all;
+                }
+            }
+            .top-box{
+                text-align: center;
+                .big-p{
+                    font-size: 2em;
+                }
+            }
+            .bottom-box{
+                height: 0px;
+                margin-top: 50px;
+                opacity: 0;
+                .small-p{
+                    text-align: center;
+                    padding-bottom: 50px;
+                }
+            }
+        }
+    }
+}

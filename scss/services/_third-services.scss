@@ -3,31 +3,78 @@
 
 main {
     #third-services {
-        padding: 100px 0px;
+        padding-top: 100px;
 
         .custom-container {
             width: 80%;
             margin: 0 auto;
-            .grid-container {
-                display: grid;
-                column-gap: 100px;
-                row-gap: 100px;
-                grid-template-columns: auto auto auto;
 
+            .flex {
                 .grid-item {
                     text-align: center;
                     padding: 50px 0px;
                     width: 100%;
 
                     img {
-                        width: 90%;
+                        width: 80%;
                     }
 
                     .big-p {
-                        font-weight: 400;
+                        font-weight: 500;
                         letter-spacing: 10px;
                         font-size: 25px;
                         margin-top: 30px;
+                    }
+
+                    .small-p {
+                        width: 85%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        .special {
+            background-color: $gray-background;
+            padding-bottom: 100px;
+            .custom-container {
+                h3 {
+                    font-size: 3.5em;
+                    font-weight: bold;
+                    text-align: center;
+                    padding-top: 100px;
+                    margin-bottom: 150px;
+
+                    span {
+                        color: $red;
+                    }
+                }
+
+                .spec-box {
+                    @include flex-box;
+
+                    .left-spec {
+                        background: rgb(27,27,27);
+background: linear-gradient(52deg, rgba(27,27,27,1) 0%, rgba(27,27,27,0.6727065826330532) 0%);
+                        color: white;
+                        padding: 100px 50px;
+                        position: absolute;
+                        width: 700px;
+                        transform: translateY(50%);
+                        z-index: 1;
+                        .big-p {
+                            font-weight: 500;
+                            letter-spacing: 8px;
+                            font-size: 1.7em;
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    .right-spec {
+                        img {
+                            width: 1000px;
+                            transform: translateX(50%);
+                        }
                     }
                 }
             }

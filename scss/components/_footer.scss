@@ -11,9 +11,29 @@ footer{
         .flex{
             @include flex-box;
             #logo{
-                p{
-                    font-size: 2em;
-                    font-weight: bold;
+                button {
+                    height: 40px;
+                    border: none;
+                    background: transparent;
+                    border-radius: 50px;
+
+
+                    &:hover {
+
+                        a {
+                            color: $red;
+                            transition: 1s all;
+                        }
+                    }
+
+                    a {
+                        color: white;
+                        font-weight: bold;
+                        display: block;
+                        padding-top: 3px;
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
                 }
             }
 

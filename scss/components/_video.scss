@@ -5,16 +5,14 @@
 main {
     #first {
         video {
-            position: absolute;
+            position: fixed;
             top: -10px;
             z-index: -1;
+            width: 100%;
         }
     }
-
-    .phone-background{
-        display: none;
-    }
 }
+
 
 
 @media only screen and (max-width: 414px){
@@ -23,11 +21,6 @@ main {
             .background-video{
                 display: none;
             }
-        }
-        .phone-background{
-            display: block;
-            width: 100%;
-            
         }
     }
 }
