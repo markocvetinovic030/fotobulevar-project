@@ -26,4 +26,11 @@ hamburger.addEventListener('click', function () {
 });
 
 
+function FullView(ImgLink) {
+    document.getElementById("full-image").src = ImgLink;
+    document.getElementById("full-image-view").style.display = 'block';
+}
 
+function CloseFullView() {
+  document.getElementById("full-image-view").style.display = 'none'; 
+}

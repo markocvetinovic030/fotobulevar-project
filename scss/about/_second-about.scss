@@ -11,9 +11,7 @@ main {
                 font-weight: bold;
                 text-align: center;
                 padding-top: 100px;
-                span{
-                    color: $red;
-                }
+                
             }
 
             .flex{
@@ -170,6 +168,225 @@ main {
                     max-width: 450px;
                     margin: 0 auto;
                     margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 912px){
+    #second-about{
+        .top{
+            #solo-p{
+                max-width: 80%;
+            }
+            h2{
+                font-size: 2.5em;
+            }
+        }
+
+        .bottom{
+            .container{
+                h4{
+                    font-size: 3em;
+                }
+                .flex{
+                    display: block;
+                    padding-top: 30px;
+                    .left{
+                        width: 100%;
+                        border-bottom: 2px solid $gray;
+                        padding-bottom: 30px;
+                        margin-bottom: 0px;
+                        padding-top: 30px;
+                        border-top: 2px solid $gray;
+                        svg{
+                            width: 80px;
+                            height: 80px;
+                        }
+                        p{
+                            font-size: 2em;
+                        }
+                        .small-p{
+                            font-size: 1.2em;
+                        }
+                    }
+                    .right{
+                        width: 100%;
+                        border-bottom: 2px solid $gray;
+                        padding-bottom: 30px;
+                        margin-top: 30px;
+                        svg{
+                            width: 80px;
+                            height: 80px;
+                        }
+                        p{
+                            font-size: 2em;
+                        }
+                        .small-p{
+                            font-size: 1.2em;
+                        }
+                    }
+                    .middle{
+                        width: 100%;
+                        border-bottom: 2px solid $gray;
+                        padding-bottom: 30px;
+                        margin-top: 30px;
+                        svg{
+                            width: 80px;
+                            height: 80px;
+                        }
+                        p{
+                            font-size: 2em;
+                        }
+                        .small-p{
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
+        }
+
+        .container{
+            .flex{
+                display: block;
+                .left{
+                    width: 100%;
+                    margin-bottom: 50px;
+                    img{
+                        width: 80%;
+                    }
+                    p{
+                        font-size: 2em;
+                    }
+                    .small-p{
+                        font-size: 1.2em;
+                        max-width: 100%;
+                    }
+                }
+                .right{
+                    width: 100%;
+                    img{
+                        width: 80%;
+                    }
+
+                    p{
+                        font-size: 2em;
+                    }
+                    .small-p{
+                        font-size: 1.2em;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+    #second-about{
+        .top{
+            #solo-p{
+                max-width: 90%;
+                font-size: 1em;
+            }
+            h2{
+                font-size: 2em;
+            }
+        }
+
+        .bottom{
+            .container{
+                h4{
+                    font-size: 2.5em;
+                }
+                .flex{
+                    display: block;
+                    padding-top: 30px;
+                    .left{
+                        width: 100%;
+                        border-bottom: 2px solid $gray;
+                        padding-bottom: 30px;
+                        margin-bottom: 0px;
+                        padding-top: 30px;
+                        border-top: 2px solid $gray;
+                        svg{
+                            width: 60px;
+                            height: 60px;
+                        }
+                        p{
+                            font-size: 1.5em;
+                        }
+                        .small-p{
+                            font-size: 1em;
+                        }
+                        
+                    }
+                    .right{
+                        width: 100%;
+                        border-bottom: 2px solid $gray;
+                        padding-bottom: 30px;
+                        margin-top: 30px;
+                        svg{
+                            width: 60px;
+                            height: 60px;
+                        }
+                        p{
+                            font-size: 1.5em;
+                        }
+                        .small-p{
+                            font-size: 1em;
+                        }
+                    }
+                    .middle{
+                        width: 100%;
+                        border-bottom: 2px solid $gray;
+                        padding-bottom: 30px;
+                        margin-top: 30px;
+                        svg{
+                            width: 60px;
+                            height: 60px;
+                        }
+                        p{
+                            font-size: 1.5em;
+                        }
+                        .small-p{
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+
+        .container{
+            .flex{
+                display: block;
+                .left{
+                    width: 100%;
+                    margin-bottom: 50px;
+                    img{
+                        width: 80%;
+                    }
+                    p{
+                        font-size: 1.7em;
+                    }
+                    .small-p{
+                        font-size: 1em;
+                    }
+                }
+                .right{
+                    width: 100%;
+                    img{
+                        width: 80%;
+                    }
+                    p{
+                        font-size: 1.7em;
+                    }
+                    .small-p{
+                        font-size: 1em;
+                    }
                 }
             }
         }

@@ -16,7 +16,7 @@
                 text-align: center;
                 background-image: url('/img/galerija\ naslovne/videoteka.jpg');
                 background-size: cover;
-                background-position: -0 -100px;
+                background-position: -0 -80px;
                 height: 400px;
                 padding: 150px 0px;
 
@@ -44,7 +44,7 @@
                 text-align: center;
                 background-image: url('/img/galerija\ naslovne/18.jpg');
                 background-size: cover;
-                background-position: -0 -100px;
+                background-position: -0 -150px;
                 height: 400px;
                 padding: 150px 0px;
                 
@@ -72,7 +72,7 @@
                 text-align: center;
                 background-image: url('/img/galerija\ naslovne/krstenje.jpg');
                 background-size: cover;
-                background-position: -0 -100px;
+                background-position: -0 -200px;
                 height: 400px;
                 padding: 150px 0px;
 
@@ -119,6 +119,72 @@
                     transform: scale(0.95);
                     background-position: 0px -200px;
                     transition: 1s all;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 912px){
+    .third-gal{
+        .container{
+            a{
+                #rodjendani{
+                    padding: 150px 0px;
+                    height: 350px;
+                    background-position: 0px 0px;
+                }
+
+                #videos{
+                    padding: 150px 0px;
+                    height: 350px;
+                    background-position: 0px 0px;
+                }
+
+                #krstenja{
+                    padding: 150px 0px;
+                    height: 350px;
+                    background-position: 0px 0px;
+                }
+
+                #vencanja{
+                    padding: 150px 0px;
+                    height: 350px;
+                    background-position: 0px 0px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+    .third-gal{
+        .container{
+            a{
+                #rodjendani{
+                    padding: 100px 0px;
+                    height: 250px;
+                    background-position: 0px 0px;
+                }
+
+                #videos{
+                    padding: 100px 0px;
+                    height: 250px;
+                    background-position: 0px 0px;
+                }
+
+                #krstenja{
+                    padding: 100px 0px;
+                    height: 250px;
+                    background-position: 0px 0px;
+                }
+
+                #vencanja{
+                    padding: 100px 0px;
+                    height: 250px;
+                    background-position: 0px 0px;
                 }
             }
         }

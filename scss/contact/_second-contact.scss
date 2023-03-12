@@ -40,3 +40,71 @@
         }
     }
 }
+
+@media only screen and (max-width: 912px){
+    #second-contact{
+        .container{
+            .flex{
+                display: block;
+                .left{
+                    width: 100%;
+                    #text{
+                        h3{
+                            text-align: center;
+                            margin: 0 auto;
+                            margin-bottom: 50px;
+                            font-size: 3em;
+                        }
+                        .id-p{
+                            text-align: center;
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+                .right{
+                    width: 100%;
+                    iframe{
+                        width: 90%;
+                        height: 300px;
+                        display: block;
+                        margin: 0 auto;
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px){
+    #second-contact{
+        .container{
+            .flex{
+                display: block;
+                .left{
+                    width: 100%;
+                    #text{
+                        h3{
+                            text-align: center;
+                            margin: 0 auto;
+                            margin-bottom: 50px;
+                        }
+                        .id-p{
+                            text-align: center;
+                        }
+                    }
+                }
+                .right{
+                    width: 100%;
+                    iframe{
+                        width: 90%;
+                        height: 300px;
+                        display: block;
+                        margin: 0 auto;
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Foto-Video Bulevar</title>
+    <link rel="shortcut icon" href="img/png.png" type="image/x-icon">
     <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!--FONT-->
 
     <!-- Bootstrap CSS -->
@@ -21,19 +23,35 @@
 </head>
 
 <body>
+    <div class="hamburger-menu">
+        <div class="flex">
+            <div class="left">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="about.html">O nama</a></li>
+                    <li><a href="services.html">Usluge</a></li>
+                    <li><a href="galery.html">Galerija</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <img src="img/logo veliki png.png" alt="">
+            </div>
+        </div>
+    </div>
+
     <header>
         <div class="container">
             <div class="flex">
                 <div class="left">
                     <div id="logo">
                         <img src="img/logo veliki png.png" alt="LOGO">
-                    </div>
-
-                    <div id="hamburger">
-                        <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 4h18v2H3V4Zm6 7h12v2H9v-2Zm-6 7h18v2H3v-2Z"></path>
-                        </svg>
                     </div>
                 </div>
 
@@ -190,11 +208,19 @@
                     </div>
                     <div class="right">
                         <div class="flex">
-                            <div id="big-img"></div>
+                            <div id="big-img">
+                                <img src="img/Vencanice12011.jpg" alt="">
+                            </div>
                             <div class="frame">
-                                <div class="small-img"></div>
-                                <div class="small-img"></div>
-                                <div class="small-img"></div>
+                                <div class="small-img">
+                                    <img src="img/ANA10366.jpg" alt="">
+                                </div>
+                                <div class="small-img">
+                                    <img src="img/BUL00601.jpg" alt="">
+                                </div>
+                                <div class="small-img">
+                                    <img src="img/BUL03268_1.jpg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -16,12 +16,14 @@ footer{
                     border: none;
                     background: transparent;
                     border-radius: 50px;
-
+                    border: 1px solid white;
+                    width: 250px;
 
                     &:hover {
+                        background-color: white;
 
                         a {
-                            color: $red;
+                            color: $black;
                             transition: 1s all;
                         }
                     }
@@ -49,7 +51,7 @@ footer{
         }
 
         .big-p {
-            font-size: 3.5em;
+            font-size: 2.5em;
             margin: 0 auto;
             margin-top: 100px;
             font-weight: bold;
@@ -67,37 +69,26 @@ footer{
     }
 }
 
-
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 420px){
     footer{
         .container{
             .flex{
-                padding: 0px 20px;
-            }
+                display: block;
+                #logo{
+                    width: 100%;
+                    button{
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+                .media{
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                    margin-top: 30px;
+                }
 
-            .big-p{
-                font-size: 3em;
-                margin: 50px 0px;
-                font-weight: bold;
-                text-align: center;
-            }
-        }
-    }
-}
-
-
-@media only screen and (max-width: 414px){
-    footer{
-        .container{
-            .flex{
-                padding: 0px 20px;
-            }
-
-            .big-p{
-                font-size: 3em;
-                margin: 50px 0px;
-                font-weight: bold;
-                text-align: center;
+                
             }
         }
     }

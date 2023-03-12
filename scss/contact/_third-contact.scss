@@ -26,8 +26,34 @@
                     margin-bottom: 15px;
                     font-weight: 600;
                     display: block;
+                    a{
+                        text-decoration: none;
+                        color: $red;
+                    }
                 }
             }
         }
     }
+}
+
+@media only screen and (max-width: 912px){
+    
+#third-contact{
+    .container{
+        h2{
+            font-size: 3em;
+        }
+        p{
+            font-size: 1.2em;
+        }
+        nav{
+            ul{
+                li{
+                    font-size: 1.5em;
+                    
+                }
+            }
+        }
+    }
+}
 }
