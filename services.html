@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Foto-Video Bulevar</title>
+    <link rel="shortcut icon" href="img/png.png" type="image/x-icon">
 
     <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +16,10 @@
         rel="stylesheet">
     <!--FONT-->
 
+    <!--ANIMATIONS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--ANIMATIONS-->
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -23,7 +28,7 @@
 </head>
 
 <body>
-    <div class="hamburger-menu">
+    <div data-aos="fade-in" class="hamburger-menu">
         <div class="flex">
             <div class="left">
                 <input id="menu__toggle" type="checkbox" />
@@ -32,7 +37,7 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="index.html">Početna</a></li>
                     <li><a href="about.html">O nama</a></li>
                     <li><a href="services.html">Usluge</a></li>
                     <li><a href="galery.html">Galerija</a></li>
@@ -46,7 +51,7 @@
         </div>
     </div>
 
-    <header>
+    <header data-aos="fade-in">
         <div class="container">
             <div class="flex">
                 <div class="left">
@@ -65,7 +70,7 @@
                 <div class="right">
                     <nav>
                         <ul>
-                            <li><a href="index.html">Pocetna</a></li>
+                            <li><a href="index.html">Početna</a></li>
                             <li><a href="about.html">O nama</a></li>
                             <li><a href="services.html">Usluge</a></li>
                             <li><a href="galery.html">Galerija</a></li>
@@ -78,7 +83,7 @@
     </header>
 
     <main>
-        <section id="first-services">
+        <section data-aos="fade-in" id="first-services">
             <div class="top-img">
                 <div class="container">
                     <h1>USLUGE</h1>
@@ -87,7 +92,7 @@
         </section>
 
 
-        <section id="second-services">
+        <section data-aos="flip-up" id="second-services">
             <div class="container">
                 <h2>VRSTE USLUGA KOJE NUDIMO</h2>
                 <p>ZASLUŽUJETE JEDISTVEN PRISTUP VAŠEM DATUMU I VAŠOJ PRIČI!</p>
@@ -97,9 +102,9 @@
 
         <section id="third-services">
             <div class="container">
-                <div class="flex">
+                <div class="flex" data-aos="fade-in">
                     <div class="left">
-                        <img src="img/slike za pakete/nature.jpg" alt="">
+                        <img src="img/paketi/nature.jpg" alt="Nature Paket">
                     </div>
                     <div class="right">
                         <p class="big-p">NATURE PAKET </p>
@@ -113,7 +118,7 @@
                                 videografa</b>, s
                             tim što je <b>uključena prodaja fotografija svim gostima po istoj ceni</b>, cena fotografija
                             za
-                            klijenta se odnosi samo na klijenta i najužu prodicu.
+                            klijenta se odnosi samo na klijenta i najužu porodicu.
                             <br> <b>Klijent dobija određeni broj fotografija u punoj rezoluciji </b>na DVD disku, kao i
                             putem online
                             galerije, koju možete deliti sa porodicom i prijateljima.
@@ -121,7 +126,7 @@
                     </div>
                 </div>
 
-                <div class="flex">
+                <div class="flex" data-aos="fade-in">
                     <div class="right">
                         <p class="big-p">CEREMONY I</p>
                         <p class="small-p"><b>Paket za fotografisanje i snimanje 18. rođendana.</b>
@@ -131,8 +136,7 @@
 
                             <br> <b>-Gotov materijal</b> (dobijate na USB-u, koji je uključen u navedenu cenu):
                             <br> <b>-Sve fotografije u punoj rezoluciji</b> (koje možete izraditi kod nas po povoljnoj
-                            ceni ili na
-                            drugom mestu, po želji)
+                            ceni)
                             <br> <b>-Video snimak koji traje do 120 minuta</b> (dugogodišnja praksa nam pokazuje da je
                             to idealno
                             trajanje video snimka za ovu vrstu veselja, u tom periodu videograf uspeva da zabeleži sve
@@ -144,24 +148,23 @@
                         </p>
                     </div>
                     <div class="left">
-                        <img id="second-image" src="img/slike za pakete/ceremony 1.jpg" alt="">
+                        <img id="second-image" src="img/paketi/ceremony 1.jpg" alt="Ceremony I">
                     </div>
                 </div>
 
-                <div class="flex">
+                <div class="flex" data-aos="fade-in">
                     <div class="left">
-                        <img src="img/slike za pakete/ceremony 2.jpg" alt="">
+                        <img src="img/paketi/ceremony 2.jpg" alt="Ceremony II">
                     </div>
                     <div class="right">
                         <p class="big-p">CEREMONY II</p>
                         <p class="small-p"><b>Paket za fotografisanje i snimanje krštenja i svadbi bez običaja.</b>
                             <br> <b>Paket obuhvata fotografisanje i snimanje</b>
                             <br> <b>-u crkvi</b> (i opštini, ako je u pitanju svadba),
-                            <br> <b>-photosessiona</b> u trajanju do 30 minuta pre početka svečanosti,
+                            <br> <b>-photosession</b> u trajanju do 30 minuta pre početka svečanosti,
                             <br> <b>-svečanosti u restoranu.</b>
                             <br><b> Gotov materijal</b> (dobijate na USB-u, koji je uključen u cenu):
-                            <br> <b>-Sve fotografije u punoj rezoluciji</b> (koje možete izraditi kod nas po povoljnoj
-                            ceni ili na drugom mestu, po želji)
+                            <br> <b>-Sve fotografije u punoj rezoluciji</b> (koje možete izraditi kod nas po povoljnoj ceni)
                             <br> <b>-Video snimak</b> koji traje do 150 minuta (dugogodišnja praksa nam pokazuje da je
                             to idealno trajanje video snimka za ovu vrstu veselja, u tom periodu videograf uspeva da
                             zabeleži sve bitne trenutke i da napravi kvalitetan video)
@@ -173,7 +176,7 @@
                     </div>
                 </div>
 
-                <div class="flex">
+                <div class="flex" data-aos="fade-in">
                     <div class="right">
                         <p class="big-p">CEREMONY III </p>
                         <p class="small-p"><b>Paket za fotografisanje i snimanje svadbi sa običajima.</b>
@@ -185,9 +188,7 @@
                             <br> <b>-photosessiona na dan venčanja u trajanju do 45 minuta</b>
                             <br> <b>-svečanosti u restoranu</b>
                             <br> <b>Gotov materijal </b>(dobijate na USB-u, koji je uključen u cenu):
-                            <br> <b>-Sve fotografije u punoj rezoluciji</b> (koje možete izraditi kod nas po povoljnoj
-                            ceni ili
-                            na drugom mestu, po želji)
+                            <br> <b>-Sve fotografije u punoj rezoluciji</b> (koje možete izraditi kod nas po povoljnoj ceni)
                             <br> <b>-Video snimak koji traje do 180 minuta</b> (dugogodišnja praksa nam pokazuje da je
                             to
                             idealno trajanje video snimka za ovu vrstu veselja, u tom periodu videograf uspeva da
@@ -195,29 +196,31 @@
                             <br> <b>-Personalizovani video spot</b>, kratki video snimak u trajanju 2-3 minuta, koji
                             pokazuje najbitnije momente sa veselja. Pravi se kako bi se sažeo celokupni doživljaj sa
                             vašeg veselja u kratko izdanje koje se lako deli i pamti.
-
+                            <b id="max-b">POŠALJITE UPIT ZA VIŠE OPCIJA OVOG PAKETA</b>
                         </p>
+
                     </div>
                     <div class="left">
-                        <img id="second-image" src="img/slike za pakete/ceremony 3.jpg" alt="">
+                        <img id="second-image" src="img/paketi/ceremony 3.jpg" alt="Ceremony III">
                     </div>
                 </div>
             </div>
 
-            <div class="special">
+            <div class="special" data-aos="fade-out">
                 <div class="custom-container">
-                    <h3>ZELITE <span>NESTO POSEBNO</span>?</h3>
-                    <div class="spec-box">
-                        <div class="left-spec">
-                            <p class="big-p">PAKET PO MERI </p>
-                            <p class="small-p">U dogovoru sa vama pravimo paket po vašoj želji. Vi odlučujete mi
-                                ispunjavamo zahteve. Sve što želite nije nemoguće, pričajte sa našim operaterom,
-                                iznesite svoje zahteve, a onda uživajte u najlepšim uspomenama.</p>
-                        </div>
-                        <div class="right-spec">
-                            <img src="img/slike za pakete/paket po meri.jpg" alt="">
+                    <h3>ŽELITE <span>NEŠTO POSEBNO</span>?</h3>
+
+                    <div class="img-frame">
+                        <div class="spec-box">
+                            <div class="left-spec">
+                                <p class="big-p">PAKET PO MERI </p>
+                                <p class="small-p">U dogovoru sa vama pravimo paket po vašoj želji. Vi odlučujete mi
+                                    ispunjavamo zahteve. Sve što želite nije nemoguće, pričajte sa našim operaterom,
+                                    iznesite svoje zahteve, a onda uživajte u najlepšim uspomenama.</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -231,8 +234,8 @@
                 </div>
 
                 <div class="media">
-                    <a href="#"><svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
+                    <a href="https://www.instagram.com/fotobulevar/" target="_blank"><svg width="46" height="46"
+                            fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M16.375 3.25a4.388 4.388 0 0 1 4.375 4.375v8.75a4.388 4.388 0 0 1-4.375 4.375h-8.75a4.389 4.389 0 0 1-4.375-4.375v-8.75A4.388 4.388 0 0 1 7.625 3.25h8.75Zm0-1.75h-8.75C4.256 1.5 1.5 4.256 1.5 7.625v8.75c0 3.369 2.756 6.125 6.125 6.125h8.75c3.369 0 6.125-2.756 6.125-6.125v-8.75c0-3.369-2.756-6.125-6.125-6.125Z">
                             </path>
@@ -244,15 +247,15 @@
                         </svg></a>
 
 
-                    <a href="#"><svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
-                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
+                    <a href="https://www.facebook.com/fotobulevar" target="_blank"><svg width="46" height="46"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg></a>
                 </div>
             </div>
 
-            <p class="big-p">PRETVARAMO VASE TRENUTKE U VECNOST</p>
+            <p class="big-p">PRETVARAMO VAŠE TRENUTKE U VEČNOST</p>
 
             <div class="bottom">
                 <p>COPYRIGHT CODEGURU 2023</p>
@@ -270,6 +273,14 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <!--BOOTSTRAP-->
+
+    <!--ANIMATIONS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--ANIMATIONS-->
+
     <script src="js/script.js"></script>
 </body>
 

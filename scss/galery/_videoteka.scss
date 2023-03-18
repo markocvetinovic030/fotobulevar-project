@@ -29,13 +29,142 @@ main {
             margin-bottom: 50px;
         }  
     }
-    .flex {
-        @include flex-box;
 
-        iframe {
-            width: 550px;
-            margin-bottom: 20px;
+    button {
+        width: 500px;
+        padding: 10px 20px;
+        height: 70px;
+        border: none;
+        background-color: $red;
+        border-radius: 50px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+        &:hover {
+            background-color: $black;
+            transform: scale(1.05);
+            transition: 1s all;
+
+            a {
+                color: white;
+                text-decoration: none;
+                transition: 1s all;
+            }
         }
 
+        a {
+            color: white;
+            font-weight: bold;
+            display: block;
+            padding-top: 3px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+    }
+
+    .flex-video {
+        width: 90%;
+        margin: 0 auto;
+        @include flex-box;
+
+        .left-col{
+            width: 30%;
+            iframe {
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+        }
+        .midd-col{
+            width: 30%;
+            iframe {
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+        }
+        .right-col{
+            width: 30%;
+            iframe {
+                display: block;
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 912px){
+    main{
+        button{
+            width: 80%;
+            height: 90px;
+        }
+        .flex-video{
+            display: block;
+            .left-col{
+                width: 100%;
+                iframe {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .midd-col{
+                width: 100%;
+                iframe {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .right-col{
+                width: 100%;
+                iframe {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px){
+    main{
+        button{
+            width: 80%;
+            height: 90px;
+        }
+        .flex-video{
+            display: block;
+            .left-col{
+                width: 100%;
+                iframe {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .midd-col{
+                width: 100%;
+                iframe {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .right-col{
+                width: 100%;
+                iframe {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+        }
     }
 }

@@ -34,3 +34,4 @@ function FullView(ImgLink) {
 function CloseFullView() {
   document.getElementById("full-image-view").style.display = 'none'; 
 }
+

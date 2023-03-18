@@ -109,12 +109,12 @@ main {
             letter-spacing: 5px;
             text-align: center;
             font-weight: bold;
-            color: #1B1B1B;
+            color: $red;
             max-width: 80%;
             margin: 0 auto;
             margin-bottom: 100px;
             span{
-                color: $red
+                color: $black
             }
         }
 

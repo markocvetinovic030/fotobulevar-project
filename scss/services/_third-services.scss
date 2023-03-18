@@ -50,6 +50,12 @@ main {
                         b {
                             font-size: 1.05em;
                         }
+
+                        #max-b{
+                            display: block;
+                            font-size: 1.2em;
+                            color: $red;
+                        }
                     }
                 }
             }
@@ -72,31 +78,27 @@ main {
                     margin-bottom: 150px;
                 }
 
-                .spec-box {
-                    @include flex-box;
-
-                    .left-spec {
-                        background: rgb(27, 27, 27);
-                        background: linear-gradient(52deg, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.6727065826330532) 0%);
-                        color: white;
-                        padding: 100px 50px;
-                        position: absolute;
-                        width: 700px;
-                        transform: translateY(50%);
-                        z-index: 1;
-
-                        .big-p {
-                            font-weight: 500;
-                            letter-spacing: 8px;
-                            font-size: 1.7em;
-                            margin-bottom: 30px;
-                        }
-                    }
-
-                    .right-spec {
-                        img {
-                            width: 1000px;
-                            transform: translateX(50%);
+                .img-frame{
+                    background-image: url('/img/paketi/paket\ po\ meri.jpg');
+                    background-size: cover;
+                    padding: 150px;
+                    .spec-box {
+    
+                        .left-spec {
+                            background: rgb(27, 27, 27);
+                            background: linear-gradient(52deg, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.6727065826330532) 0%);
+                            color: white;
+                            padding: 100px 50px;
+                            width: 70%;
+                            z-index: 1;
+                            margin: 0 auto;
+    
+                            .big-p {
+                                font-weight: 500;
+                                letter-spacing: 8px;
+                                font-size: 1.7em;
+                                margin-bottom: 30px;
+                            }
                         }
                     }
                 }
@@ -144,29 +146,22 @@ main {
                     h3{
                         font-size: 3em;
                     }
-                    .spec-box{
-                        display: block;
-                        .left-spec {
-                            transform: translate(0%, 0%);
-                            position: relative;
-                            width: 100%;
-                            text-align: center;
-                            padding: 0px;
-                            margin-bottom: 50px;
-                            background: transparent;
-                            color: $black;
-                            .big-p{
-                                font-size: 2.5em;
-                            }
-                            .small-p{
-                                font-size: 1.3em;
-                            }
-                        }
-    
-                        .right-spec{
-                            img{
-                                transform: translate(0%, 0%);
+                    .img-frame{
+                        padding: 100px;
+                        .spec-box{
+                            display: block;
+                            .left-spec {
                                 width: 100%;
+                                text-align: center;
+                                padding: 50px;
+                                margin-bottom: 50px;
+
+                                .big-p{
+                                    font-size: 2.5em;
+                                }
+                                .small-p{
+                                    font-size: 1.3em;
+                                }
                             }
                         }
                     }
@@ -202,7 +197,7 @@ main {
 
                     .right {
                         width: 100%;
-
+                        
                         .big-p {
                             text-align: center;
                             margin-top: 50px;
@@ -222,24 +217,22 @@ main {
                         font-size: 3em;
                     }
 
-                    .spec-box {
-                        display: block;
-
-                        .left-spec {
-                            transform: translate(0%, 0%);
-                            position: relative;
-                            width: 100%;
-                            text-align: center;
-                            padding: 0px;
-                            margin-bottom: 50px;
-                            background: transparent;
-                            color: $black;
-                        }
-
-                        .right-spec {
-                            img {
-                                transform: translate(0%, 0%);
+                    .img-frame{
+                        padding: 0px;
+                        .spec-box{
+                            display: block;
+                            .left-spec {
                                 width: 100%;
+                                text-align: center;
+                                padding: 50px;
+                                margin-bottom: 50px;
+
+                                .big-p{
+                                    font-size: 2em;
+                                }
+                                .small-p{
+                                    font-size: 1em;
+                                }
                             }
                         }
                     }

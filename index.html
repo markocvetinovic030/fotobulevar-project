@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foto-Video Bulevar</title>
     <link rel="shortcut icon" href="img/png.png" type="image/x-icon">
+    <meta name="description" content="Foto-Video Bulevar - Fotografska radnja u Prokuplju. Fotografisanje i snimanje veselja. Izrada fotografija. Foto albumi, ramovi za slike. Posetite nas i uverite se u kvalitet naših proizvoda.">
     <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,10 @@
         href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!--FONT-->
+
+    <!--ANIMATIONS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--ANIMATIONS-->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -32,7 +37,7 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="index.html">Početna</a></li>
                     <li><a href="about.html">O nama</a></li>
                     <li><a href="services.html">Usluge</a></li>
                     <li><a href="galery.html">Galerija</a></li>
@@ -46,7 +51,7 @@
         </div>
     </div>
 
-    <header>
+    <header data-aos="fade-in">
         <div class="container">
             <div class="flex">
                 <div class="left">
@@ -58,7 +63,7 @@
                 <div class="right">
                     <nav>
                         <ul>
-                            <li><a href="index.html">Pocetna</a></li>
+                            <li><a href="index.html">Početna</a></li>
                             <li><a href="about.html">O nama</a></li>
                             <li><a href="services.html">Usluge</a></li>
                             <li><a href="galery.html">Galerija</a></li>
@@ -71,38 +76,38 @@
     </header>
 
     <main>
-        <section id="first">
+        <section id="first" data-aos="fade-in">
             <video class="background-video" autoplay loop muted>
-                <source id="desktop-video" src="img/video pozadina sajttt.mp4" type="video/mp4">
+                <source id="desktop-video" src="img/video pozadina sajt.mp4" type="video/mp4">
             </video>
         </section>
 
         <div class="black-section">
             <div class="container">
                 <div class="flex">
-                    <div class="left">
+                    <div class="left" data-aos="fade-out">
                         <h2>UPOZNAJTE NAS</h2>
                         <p class="f-big-p">FOTO-VIDEO <span>BULEVAR</span></p>
-                        <p class="f-small-p">Imamo tim mladih, stručnih i kreativnih profesionalaca. Koji je tu da
+                        <p class="f-small-p">Imamo tim stručnih i kreativnih profesionalaca. Koji je tu da
                             zabeleži vaše posebne trenutke i emocije na jedinstven način. Njihovi ciljevi su da vam
                             pruže najbolji mogući kvalitet fotografije i videa, koji će biti dragoceni za vas i vašu
                             porodicu godinama kasnije.</p>
-                        <button><a href="about.html">VISE O NAMA</a></button>
+                        <button><a href="about.html">VIŠE O NAMA</a></button>
                     </div>
-                    <div class="right">
+                    <div class="right" data-aos="fade-out">
                         <img src="img/BUL00826.jpg" alt="Bulevar radnici">
                     </div>
                 </div>
 
                 <div class="bottom">
                     <div class="flex">
-                        <div class="left">
+                        <div class="left" data-aos="fade-right">
                             <img src="img/smartphone_realistic_mockup.png" alt="Phone">
                         </div>
-                        <div class="right">
-                            <p class="big-p"><span>PRATITE</span> NAS RAD</p>
-                            <p class="small-p">Zapratite nas na društvenim mrežama kako biste bili u toku sa nasim
-                                najnovijim sadrzajem.</p>
+                        <div class="right" data-aos="fade-right">
+                            <p class="big-p"><span>PRATITE</span> NAŠ RAD</p>
+                            <p class="small-p">Zapratite nas na društvenim mrežama kako biste bili u toku sa našim
+                                najnovijim sadržajem.</p>
 
                             <div id="media">
                                 <a target="_blank" href="https://www.instagram.com/fotobulevar/"><svg width="46"
@@ -132,10 +137,10 @@
         </div>
 
         <section id="gray">
-            <div class="container">
+            <div class="container" data-aos="fade-in">
                 <h3>PROCES RADA</h3>
                 <p class="big-p">SAV PROCES RADA DELIMO U<span> 3 OSNOVNA DELA</span></p>
-                <div class="flex">
+                <div class="flex" >
                     <div class="left">
                         <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
                             stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
@@ -168,7 +173,7 @@
                                 d="M15.429 13.143a3.429 3.429 0 1 0-6.858 0 3.429 3.429 0 0 0 6.858 0Zm-4.572-8h2.286c.631 0 1.143.511 1.143 1.143v1.143H9.714V6.286c0-.631.512-1.143 1.143-1.143Z"
                                 clip-rule="evenodd"></path>
                         </svg>
-                        <p>DAN DOGADJAJA</p>
+                        <p>DAN DOGAĐAJA</p>
                     </div>
 
                     <div class="right">
@@ -185,16 +190,16 @@
 
                 </div>
 
-                <button><a href="about.html">POGLEDAJTE NAS PROCES RADA</a></button>
+                <button><a href="about.html">DETALJNIJE</a></button>
             </div>
         </section>
 
         <section id="lightgray">
             <div class="container">
-                <h4>POGLEDAJTE NASU <span>GALERIJU</span></h4>
+                <h4>POGLEDAJTE NAŠU <span>GALERIJU</span></h4>
 
                 <div class="flex">
-                    <div class="left">
+                    <div class="left" data-aos="slide-right">
                         <h5>GALERIJA</h5>
                         <p class="small-p">Fotografija je kao poezija, samo vizuelna. Postoji toliko mnogo priča i
                             značenja koje jedna slika može da pokaže, sve zavisi od toga ko je gleda i da li obraća
@@ -206,20 +211,20 @@
                                     <path d="m12 5 7 7-7 7"></path>
                                 </svg></a></button>
                     </div>
-                    <div class="right">
+                    <div class="right" data-aos="fade-in" >
                         <div class="flex">
                             <div id="big-img">
                                 <img src="img/Vencanice12011.jpg" alt="">
                             </div>
                             <div class="frame">
                                 <div class="small-img">
-                                    <img src="img/ANA10366.jpg" alt="">
+                                    <img src="img/galerija pocetna 3 horizontalne/1.jpg" alt="">
                                 </div>
                                 <div class="small-img">
-                                    <img src="img/BUL00601.jpg" alt="">
+                                    <img src="img/galerija pocetna 3 horizontalne/2.jpg" alt="">
                                 </div>
                                 <div class="small-img">
-                                    <img src="img/BUL03268_1.jpg" alt="">
+                                    <img src="img/galerija pocetna 3 horizontalne/3.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -237,7 +242,7 @@
                 </div>
 
                 <div class="media">
-                    <a href="#"><svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24"
+                    <a href="https://www.instagram.com/fotobulevar/" target="_blank"><svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M16.375 3.25a4.388 4.388 0 0 1 4.375 4.375v8.75a4.388 4.388 0 0 1-4.375 4.375h-8.75a4.389 4.389 0 0 1-4.375-4.375v-8.75A4.388 4.388 0 0 1 7.625 3.25h8.75Zm0-1.75h-8.75C4.256 1.5 1.5 4.256 1.5 7.625v8.75c0 3.369 2.756 6.125 6.125 6.125h8.75c3.369 0 6.125-2.756 6.125-6.125v-8.75c0-3.369-2.756-6.125-6.125-6.125Z">
@@ -250,7 +255,7 @@
                         </svg></a>
 
 
-                    <a href="#"><svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
+                    <a href="https://www.facebook.com/fotobulevar" target="_blank"><svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
                             stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
@@ -258,13 +263,14 @@
                 </div>
             </div>
 
-            <p class="big-p">PRETVARAMO VASE TRENUTKE U VECNOST</p>
+            <p class="big-p">PRETVARAMO VAŠE TRENUTKE U VEČNOST</p>
 
             <div class="bottom">
                 <p>COPYRIGHT CODEGURU 2023</p>
             </div>
         </div>
     </footer>
+
     <!--BOOTSTRAP-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -276,6 +282,14 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <!--BOOTSTRAP-->
+
+    <!--ANIMATIONS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--ANIMATIONS-->
+
     <script src="js/script.js"></script>
 </body>
 
