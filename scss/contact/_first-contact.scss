@@ -26,14 +26,30 @@ main {
     }
 }
 
+@media only screen and (max-width: 1600px){
+    main{
+        #first-contact{
+            .top-img{
+                background-position: 0px -100px;
+            }
+        }
+    }
+}
+
+
 @media only screen and (max-width: 912px){
-    #first-contact {
-        .top-img {
-            .container{
-                h1{
-                    font-size: 3em;
-                    text-align: center;
-                    padding-top: 80px;
+    main{
+        #first-contact {
+            .top-img {
+                background-size: cover;
+                    background-attachment: unset;
+                    background-position: 0px 0px;
+                .container{
+                    h1{
+                        font-size: 3em;
+                        text-align: center;
+                        padding-top: 80px;
+                    }
                 }
             }
         }
@@ -41,15 +57,18 @@ main {
 }
 
 @media only screen and (max-width: 420px) {
-    #first-contact {
-        .top-img {
-            background-size: cover;
-            background-position: 0px 0px;
-            .container{
-                h1{
-                    font-size: 2.5em;
-                    text-align: center;
-                    padding-top: 80px;
+    main{
+        #first-contact {
+            .top-img {
+                background-size: cover;
+                    background-attachment: unset;
+                    background-position: 0px 0px;
+                .container{
+                    h1{
+                        font-size: 2.5em;
+                        text-align: center;
+                        padding-top: 80px;
+                    }
                 }
             }
         }

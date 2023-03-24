@@ -45,12 +45,13 @@
 
                 button {
                     width: 250px;
-                    height: 40px;
+                    height: 50px;
                     border: 1px solid black;
                     border-radius: 50px;
                     margin-top: 80px;
                     background-color: white;
                     text-align: left;
+                    float: left;
 
                     &:hover {
                         background-color: $black;
@@ -116,6 +117,36 @@
     }
 }
 
+@media only screen and (max-width: 1600px){
+
+    #lightgray{
+        .container{
+            .flex{
+                .right{
+                    margin-top: 100px;
+                    .flex{
+                        justify-content: space-around ;
+                        #big-img{
+                            img{
+                                width: 375px;
+                            }
+                        }
+                        .frame{
+                            .small-img{
+                                img{
+                                    width: 250px;
+                                    margin-bottom: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
 @media only screen and (max-width: 912px){
     #lightgray{
         display: block;
@@ -147,7 +178,8 @@
                         margin: 0 auto;
                         margin-top: 50px;
                         width: 300px;
-                        
+                        height: 60px;
+                        float: none;
                         a{
                             font-size: 1.3em;
                             svg{
@@ -212,7 +244,7 @@
                         display: block;
                         margin: 0 auto;
                         margin-top: 50px;
-                        width: 200px;
+                        width: 250px;
                         a{
                             font-size: 1em;
                             svg{

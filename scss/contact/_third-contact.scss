@@ -28,7 +28,8 @@
                     display: block;
                     a{
                         text-decoration: none;
-                        color: $red;
+                        border-bottom: 1px solid $black;
+                        color: $black;
                     }
                 }
             }

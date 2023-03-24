@@ -24,11 +24,23 @@ main{
     }
 }
 
+@media only screen and (max-width: 1600px) {
+    main {
+        #first-services {
+            .top-img {
+                background-position: 0px -450px;
+            }
+        }
+    }
+}
+
+
 @media only screen and (max-width: 912px){
     main{
         #first-services{
             .top-img {
-                
+                background-attachment: unset;
+                background-position: 0px -220px;
                 .container{
                     h1{
                         font-size: 3em;
@@ -46,7 +58,8 @@ main{
         #first-services{
             .top-img {
                 background-size: cover;
-                background-position: -620px -350px;
+                background-attachment: unset;
+                background-position: 0px 0px;
                 .container{
                     h1{
                         font-size: 2.5em;

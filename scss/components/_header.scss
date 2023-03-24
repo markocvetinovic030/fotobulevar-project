@@ -17,9 +17,11 @@ header {
             @include flex-box;
 
             .left {
-                #logo {
-                    img {
-                        width: 150px;
+                a{  width: 150px;
+                    #logo {
+                        img {
+                            width: 150px;
+                        }
                     }
                 }
 

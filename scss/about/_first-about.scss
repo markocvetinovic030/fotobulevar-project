@@ -27,12 +27,23 @@ main {
 
 }
 
+@media only screen and (max-width: 1600px){
+    main{
+        #first-about{
+            .top-img{
+                background-position: 0px -430px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 912px){
     main{
         #first-about{
             .top-img{
                 background-size: cover;
-                background-position: -450px -330px;
+                background-attachment: unset;
+                background-position: 0px -230px;
                 h1{
                     font-size: 3em;
                     text-align: center;
@@ -49,7 +60,8 @@ main {
         #first-about{
             .top-img{
                 background-size: cover;
-                background-position: -450px -330px;
+                background-attachment: unset;
+                background-position: 0px 0px;
                 h1{
                     font-size: 2.5em;
                     text-align: center;
