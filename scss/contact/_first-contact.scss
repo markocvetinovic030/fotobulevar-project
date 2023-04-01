@@ -26,6 +26,8 @@ main {
     }
 }
 
+
+
 @media only screen and (max-width: 1600px){
     main{
         #first-contact{
@@ -36,6 +38,15 @@ main {
     }
 }
 
+@media only screen and (max-width: 1280px){
+    main{
+        #first-contact{
+            .top-img{
+                background-position: 0px -30px;
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 912px){
     main{

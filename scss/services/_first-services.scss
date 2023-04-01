@@ -24,11 +24,52 @@ main{
     }
 }
 
+@media only screen and (max-width: 2000px){
+    main {
+        #first-services {
+            .top-img {
+                background-position: 0px -550px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1800px){
+    main {
+        #first-services {
+            .top-img {
+                background-position: 0px -500px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1600px) {
     main {
         #first-services {
             .top-img {
                 background-position: 0px -450px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1400px){
+    main {
+        #first-services {
+            .top-img {
+                background-position: 0px -350px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    main{
+        #first-services {
+            .top-img {
+                background-position: 0px -350px;
             }
         }
     }
