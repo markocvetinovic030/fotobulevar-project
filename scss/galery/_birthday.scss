@@ -57,9 +57,23 @@ main {
 
         .flex{
             @include flex-box;
-            img{
-                width: 550px;
-                margin-bottom: 20px;
+            .left-col{
+                width: 33%;
+                img{
+                    width: 90%;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .midd-col{
+                width: 33%;
+                img{
+                    width: 90%;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
             }
         }
     }
@@ -76,8 +90,9 @@ main {
             .flex{
                 display: block;
                 .left-col{
+                    width: 100%;
                     img{
-                        width: 80%;
+                        width: 100%;
                         display: block;
                         margin: 0 auto;
                         margin-bottom: 20px;
@@ -85,8 +100,9 @@ main {
                 }
 
                 .midd-col{
+                    width: 100%;
                     img{
-                        width: 80%;
+                        width: 100%;
                         display: block;
                         margin: 0 auto;
                         margin-bottom: 20px;
@@ -109,8 +125,9 @@ main {
             .flex{
                 display: block;
                 .left-col{
+                    width: 100%;
                     img{
-                        width: 80%;
+                        width: 100%;
                         display: block;
                         margin: 0 auto;
                         margin-bottom: 20px;
@@ -118,8 +135,9 @@ main {
                 }
 
                 .midd-col{
+                    width: 100%;
                     img{
-                        width: 80%;
+                        width: 100%;
                         display: block;
                         margin: 0 auto;
                         margin-bottom: 20px;
